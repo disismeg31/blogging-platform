@@ -1,7 +1,14 @@
- 
+ import { NavLink } from "react-router-dom"
 function SideBar() {
   return (
-    <div>SideBar</div>
+    <div>
+        <NavLink>
+            <span>Dashboard</span>
+        </NavLink>
+        <NavLink>
+            <span>Posts</span>
+        </NavLink>
+    </div>
   )
 }
 

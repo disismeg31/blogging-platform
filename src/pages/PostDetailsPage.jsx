@@ -14,12 +14,12 @@ function PostDetailsPage() {
     return <p>Post not found</p>;
   }
   return (
-    <div className="bg-[#DCDCDC] w-150  mx-auto my-25">
-      <div className="bg-[#ffee8c] w-full h-half p-4 flex flex-col">
-        <span className="p-4 text-[#00171F] flex items-center" onClick={() => navigate(-1)}><FaArrowLeft size={23} /></span>
+    <div className="bg-[#C8D9E6] w-150 mx-auto my-12">
+      <div className="w-full h-half p-4 flex flex-col">
+        <span className="p-4 text-[#00171F] flex items-center cursor-pointer" onClick={() => navigate(-1)}><FaArrowLeft size={23} /></span>
         <h1 className="py-4 mx-4 text-[#00171F] text-5xl font-bold flex justify-center items-center ">{post.title}</h1>
       </div>
-      <div className="bg-[#BFBA99]  p-4 flex flex-col">
+      <div className="bg-[#E7E8E7]  p-4 flex flex-col">
         <p className="text-justify text-[#00171F] mx-4 mt-9 text-xl" >{post.body}</p>
         {
           like ? 

@@ -18,7 +18,7 @@ function Login() {
         }   
     };
     return(   
-        <div className='w-full h-full flex flex-col flex-wrap justify-center items-center my-45 p-2 mx-auto '>
+        <div className='w-full h-screen flex  justify-center items-center p-2'>
             <div className="w-96 h-64 p-4 bg-[#A7D477] flex flex-col justify-center items-center rounded-xl">
             <input className='w-64 h-12 m-2 p-3 text-md border-none bg-[#ffffff75] text-[#63a363] rounded-md placeholder:text-[#E46161]' ref={usernameInputElement}  name='username'   type="text" placeholder="abc@123"   />
             <input className='w-64 h-12 m-2 p-3 text-md border-none bg-[#ffffff75] text-[#63a363] rounded-md placeholder:text-[#E46161]' ref={passwordInputElement} name='password'   type="password" placeholder="123"  />
